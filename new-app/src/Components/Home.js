@@ -11,17 +11,17 @@ import Typography from '@material-ui/core/Typography';
 
 const Home = () => {
     return (
-        <Container className="hero-home" disableGutters="true" maxWidth="false">
+        <Container disableGutters="true" maxWidth="false">
             <img src={homeBg} className="hero-img" alt="car" />
             <Box mx="auto" width="75%" className="hero-text">
                 <Box>
-                    <Box mb={2}>
+                    <Box mb={2} mt={4}>
                         <Typography variant="h6" color="secondary" align="center">Dinos que quieres hacer con tu auto, y nosotros nos encargamos del resto</Typography>
                     </Box>
-                    <Box mt={2}>
+                    <Box mt={4}>
                         <Typography variant="h2" color="secondary" align="center">Bienvenido a Cars Around, tu taller.</Typography>
                     </Box>
-                    <Box align="center" mx="auto" width="25%" mt={2}>
+                    <Box align="center" mx="auto" width="25%" mt={3}>
                         <Button variant="outlined" fullWidth color="secondary">
                              Conócenos
                         </Button>

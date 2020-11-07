@@ -1,5 +1,5 @@
 .hero-img {
-    position: absolute;
+    position: relative;
     max-width: 100%;
     height: auto;
     z-index: -1;
