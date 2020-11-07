@@ -13,7 +13,7 @@ import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import PlayCircleFilledWhiteRoundedIcon from '@material-ui/icons/PlayCircleFilledWhiteRounded';
+import PlayCircleFilledWhiteTwoToneIcon from '@material-ui/icons/PlayCircleFilledWhiteTwoTone';
 import BrokenImageRoundedIcon from '@material-ui/icons/BrokenImageRounded';
 import FlightTakeoffRoundedIcon from '@material-ui/icons/FlightTakeoffRounded';
 import GradeOutlinedIcon from '@material-ui/icons/GradeOutlined';
@@ -47,7 +47,7 @@ const About = () => {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot>
-                            <PlayCircleFilledWhiteRoundedIcon style={{ fontSize: 100 }} />
+                            <PlayCircleFilledWhiteTwoToneIcon style={{ fontSize: 100 }} />
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
