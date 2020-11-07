@@ -1,0 +1,15 @@
+.hero-img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    filter: brightness(40%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 18px;
+}
