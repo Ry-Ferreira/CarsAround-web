@@ -1,2 +1,2 @@
 # CarsAround-web
-Sitio web para el diseño tus autos.
+Sitio web para el diseño de tus autos.
