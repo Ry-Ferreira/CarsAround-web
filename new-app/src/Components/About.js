@@ -17,6 +17,7 @@ import PlayCircleFilledWhiteTwoToneIcon from '@material-ui/icons/PlayCircleFille
 import BrokenImageRoundedIcon from '@material-ui/icons/BrokenImageRounded';
 import FlightTakeoffRoundedIcon from '@material-ui/icons/FlightTakeoffRounded';
 import GradeOutlinedIcon from '@material-ui/icons/GradeOutlined';
+import { Grid, Box } from '@material-ui/core';
 
 
 const useStyles = makeStyles((theme) => ({
