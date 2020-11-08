@@ -7,8 +7,9 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles({
-    text: {
-        color: "red"
+    header: {
+        color: "black",
+        backgroundColor: "#ff9900"
     }
 });
 
@@ -17,7 +18,7 @@ const Navbar = () => {
     const classes = useStyles();
 
     return (
-        <AppBar position="fixed" color="transparent" className={classes.text}>
+        <AppBar position="fixed" className={classes.header}>
             <Toolbar>
                 <Grid container direction="row" justify="space-between">
                     <Box pl={4}>
