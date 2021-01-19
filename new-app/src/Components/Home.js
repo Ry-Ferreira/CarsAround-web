@@ -31,7 +31,7 @@ const Home = () => {
             <Box mx="auto" width="75%" className="hero-text">
                 <Box>
                     <Box mb={2} mt={4}>
-                        <Typography variant="h6" className={classes.text} align="center">Dinos que quieres hacer con tu auto, ynosotros nos encargamos del resto</Typography>
+                        <Typography variant="h6" className={classes.text} align="center">Dinos que quieres hacer con tu auto, y nosotros nos encargamos del resto</Typography>
                     </Box>
                     <Box mt={4}>
                         <Typography variant="h2" className={classes.text} align="center">Bienvenido a Cars Around, tu taller.</Typography>
